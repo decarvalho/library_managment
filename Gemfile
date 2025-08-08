@@ -47,7 +47,8 @@ group :development, :test do
 end
 
 group :development do
-  gem 'rspec-rails', '~> 7.1.1'
+  gem "rspec-rails", "~> 7.1.1"
+  gem "factory_bot_rails"
   gem "rubocop", require: false
   gem "rubocop-rails", require: false
   # Use console on exceptions pages [https://github.com/rails/web-console]
